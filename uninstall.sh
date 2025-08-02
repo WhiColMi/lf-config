@@ -8,7 +8,7 @@ echo "[*] Uninstalling lf-config..."
 
 if [ -L "$CONFIG_DIR" ]; then
     echo "[!] Removing symlink at $CONFIG_DIR"
-m "$CONFIG_DIR"
+    rm "$CONFIG_DIR"
 else
     echo "[!] No symlink found at $CONFIG_DIR — skipping"
 fi
