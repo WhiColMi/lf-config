@@ -2,6 +2,8 @@ set hidden
 set preview true
 set previewer ~/.config/lf/lf_preview.sh
 
+source ~/.config/lf/theme.conf
+
 # interpreter for shell commands
 set shell sh
 
